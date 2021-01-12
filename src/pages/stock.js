@@ -23,7 +23,10 @@ console.log('props', symbol)
     return (
     <div>
       <h1>Name: {stock[0].companyName}</h1>
-      <h3>Price: {stock[0].price}</h3>
+      <h3>Price: {stock[0].price}{stock[0].currency}</h3>
+      <h3>Exchange: {stock[0].exchangeShortName}</h3>
+      <h3>Industry: {stock[0].industry}</h3>
+      <h3>Location: {stock[0].city}</h3>
     </div>
     )
   }
