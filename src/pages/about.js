@@ -1,9 +1,9 @@
 import React from 'react'
-import {Link} from 'react-router-dom'
+
 
 const About = (props) => {
   return (
-    <h1>About Component</h1>
+    <h1>This page is part of a tutorial to learn the ins and outs of React. <br></br>This is meant as a demo only and not for public use.</h1>
   )
 }
 export default About

@@ -3,15 +3,15 @@ import {Link} from 'react-router-dom'
 
 const Nav = (props) => {
   return (
-    <div>
+    <div className='nav'>
       <Link to="/">
-        <div>iStocks</div>
+        <h1 className='nav-item'>iStocks</h1>
       </Link>
       <Link to="/stocks">
-        <div>Stocks</div>
+        <div className='nav-item'>Stocks</div>
       </Link>
       <Link to="/about">
-        <div>About</div>
+        <div className='nav-item'>About</div>
       </Link>
     </div>
   )

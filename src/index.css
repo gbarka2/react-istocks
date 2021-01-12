@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  text-decoration: none;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,25 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  background-color: purple;
+}
+
+.nav-item {
+  margin: 10px;
+  text-decoration: none;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+.stock-list {
+  margin-top: 20px;
 }

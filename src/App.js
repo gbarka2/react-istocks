@@ -17,7 +17,7 @@ function App() {
        <Route path="/stocks">
          <Stocks />
        </Route>
-       <Route path="/stocks/:symbol" render={(routerProps) => <Stock {...routerProps}/>}/>
+       <Route path="/stock/:symbol" render={(routerProps) => <Stock {...routerProps}/>}></Route>
        <Route>
          <About />
        </Route>
